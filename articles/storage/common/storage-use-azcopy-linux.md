@@ -44,6 +44,9 @@ tar -xf azcopy.tar.gz
 sudo ./install.sh
 ```
 
+> [!NOTE]
+> On Alpine Linux, AzCopy (v7.2 or later) is not working, you need to use [AzCopy v10 (Preview)](https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10). This new version do not use the .NET Core.
+
 You can remove the extracted files once AzCopy on Linux is installed. Alternatively, if you do not have superuser privileges you can also run `azcopy` using the shell script azcopy in the extracted folder.
 
 ### Alternative Installation on Ubuntu
